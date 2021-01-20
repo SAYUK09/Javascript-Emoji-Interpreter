@@ -19,7 +19,8 @@ var emojiDict = {
     "😔": "sad",
     "🥡": "takeout box",
     "❤️": "love",
-    "😑": "annoyance"
+    "😑": "annoyance",
+    " y": "😑"
   };
   
 
@@ -35,10 +36,14 @@ function changeHandler(){
 
 }
 
-var shoppingList = ["s", "a", "y", "u", "k"]
+var shoppingList = ["s", "a", "y", "u", "k", "l"]
 const listDiv = document.getElementById("list")
 console.log(listDiv)
-
-shoppingList.map(item=>{
+var dictArray = Object.values(emojiDict)
+console.log(dictArray)
+dictArray.map(item=>{
     console.log(item)
+    
+    
+
 })
