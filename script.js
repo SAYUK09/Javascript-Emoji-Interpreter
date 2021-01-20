@@ -41,6 +41,4 @@ console.log(listDiv)
 
 shoppingList.map(item=>{
     console.log(item)
-   
-
 })
